@@ -169,5 +169,16 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+  <distributionManagement>
+    <repository>
+      <id>single-module-project</id>
+      <name>maven-samples</name>
+      <url>http://192.168.32.40:8081/nexus/content/repositories/single-module-project</url>
+    </repository>
+    <snapshotRepository>
+      <id><single-module-project-snapshot/id>
+      <name><maven-samples/name>
+      <url>http://192.168.32.40:8081/nexus/content/repositories/single-module-project-snapshot</url>
+    </snapshotRepository>      
 
 </project>
