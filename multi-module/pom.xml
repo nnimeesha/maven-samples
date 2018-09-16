@@ -212,7 +212,7 @@
   <distributionManagement>
     <repository>
       <id>multi-module-parent-snapshot</id>
-      <name><maven-samples/name>
+      <name><maven-samples</name>
       <url>http://192.168.32.40:8081/nexus/content/repositories/multi-module-parent-snapshot</url>
     </repository>
     <snapshotRepository>
