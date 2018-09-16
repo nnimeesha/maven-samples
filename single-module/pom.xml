@@ -6,7 +6,7 @@
   <groupId>com.example.maven-samples</groupId>
   <artifactId>single-module-project</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>rekha-SNAPSHOT</version>
   <name>A Single Maven Module</name>
   <description>Sample single module Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
@@ -15,14 +15,6 @@
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
-
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/single-module-site</url>
-    </site>
-  </distributionManagement>
 
   <build>
     <finalName>${project.artifactId}</finalName>
@@ -176,8 +168,8 @@
       <url>http://192.168.32.40:8081/nexus/content/repositories/single-module-project</url>
     </repository>
     <snapshotRepository>
-      <id><single-module-project-snapshot/id>
-      <name><maven-samples/name>
+      <id><single-module-project-snapshot</id>
+      <name><maven-samples</name>
       <url>http://192.168.32.40:8081/nexus/content/repositories/single-module-project-snapshot</url>
     </snapshotRepository>      
 
