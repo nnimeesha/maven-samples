@@ -216,8 +216,8 @@
       <url>http://192.168.32.40:8081/nexus/content/repositories/multi-module-parent-snapshot</url>
     </repository>
     <snapshotRepository>
-      <id>myapp-snapshots</id>
-      <name>myapp-snapshots</name>
+      <id>multi-module-parent</id>
+      <name>multi-module</name>
       <url>http://192.168.32.40:8081/nexus/content/repositories/multi-module-parent-snapshot</url>
     </snapshotRepository>
          
